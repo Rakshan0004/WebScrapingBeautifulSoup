@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraping Testing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .section p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .price-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .price-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1><strong>Starting Scraping!!!</strong></h1>
+    
+    <!-- Section 1 -->
+    <div class="section" id="article-1">
+        <h2>Article 1: The Rise of Web Scraping</h2>
+        <p><strong>Author:</strong> John Doe</p>
+        <p><strong>Published:</strong> January 1, 2025</p>
+        <p>Web scraping has become an essential tool for data collection, enabling businesses to gather insights from publicly available online information efficiently.</p>
+        <button class="price-button">$10.99</button>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="section" id="product-1">
+        <h2>Product: Wireless Mouse</h2>
+        <p><strong>Price:</strong> $25.99</p>
+        <p><strong>Availability:</strong> In Stock</p>
+        <p>This wireless mouse features ergonomic design, long battery life, and seamless connectivity for all your computing needs.</p>
+        <button class="price-button">$25.99</button>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="section" id="news-1">
+        <h2>News: Technology Trends in 2025</h2>
+        <p><strong>Source:</strong> Tech World</p>
+        <p><strong>Date:</strong> January 4, 2025</p>
+        <p>The top trends in technology for 2025 include advancements in AI, blockchain integration, and the rise of quantum computing applications.</p>
+        <button class="price-button">$5.00</button>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="section" id="recipe-1">
+        <h2>Recipe: Classic Pancakes</h2>
+        <p><strong>Ingredients:</strong> Flour, Eggs, Milk, Sugar, Baking Powder</p>
+        <p><strong>Instructions:</strong> Mix all ingredients, cook on a hot skillet, and serve with syrup and toppings of your choice.</p>
+        <button class="price-button">$3.50</button>
+    </div>
+
+    <!-- Section 5 -->
+    <div class="section" id="user-reviews">
+        <h2>User Reviews</h2>
+        <p><strong>User 1:</strong> "This is an amazing product! Highly recommend it."</p>
+        <p><strong>User 2:</strong> "Great value for money. The quality is excellent."</p>
+        <button class="price-button">$15.00</button>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Popper.js (necessary for Bootstrap's dropdowns, tooltips, and popovers) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // When the page loads, display an alert
+        window.onload = function() {
+            alert("Web Scraping Example Loaded");
+        };
+    </script>
+</body>
+</html>
